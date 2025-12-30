@@ -26,18 +26,18 @@ export default function BRTeamPage() {
   role: "BR EC",
   department: "Electronics Engineering",
   year: "2nd",
-  image: "/team/Sneh Patel_BR(ECE) .JPG", // 🔴 update image path if different
-  linkedin: "", // add if available
+  image: "/team/Sneh Patel_BR(ECE) .JPG", // 
+  linkedin: "https://www.linkedin.com/in/sneh-patel-a72575321/",
 },
 
-// {
-//   name: "Manav Rana",
-//   role: "BR Production",
-//   department: "Production Engineering",
-//   year: "3rd",
-//   image: "/team/Manav Rana_Production_BR.jpg", // 🔴 update image path if different
-//   linkedin: "", // add if available
-// },
+{
+  name: "Manav Rana",
+  role: "BR Production",
+  department: "Production Engineering",
+  year: "3rd",
+  image: "/team/Manav_BR.jpeg", 
+  linkedin: "",
+},
     {
       name: "Jay Thakar",
       role: "BR Mechanical",
