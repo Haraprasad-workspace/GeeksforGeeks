@@ -113,8 +113,24 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Line */}
-      <div className="border-t border-green-700 mt-10 pt-4 text-center text-sm text-green-300">
-        <p>Copyright © GeeksForGeeks BVM 2025 | All Rights Reserved</p>
+      <div className="border-t border-green-700 mt-10 pt-4 text-center text-sm text-green-300 space-y-1">
+        <p>
+          For technical queries, contact{" "}
+          <span className="font-medium text-white">
+            Haraprasad Mahapatra
+          </span>{" "}
+          <span className="italic text-green-200">(Tech Manager)</span> —{" "}
+          <span className="text-white">+91 95373 62412</span>
+        </p>
+
+        <p>
+          Crafted and developed by{" "}
+          <span className="font-semibold text-white">GFG BVM</span>
+        </p>
+
+        <p className="text-green-400">
+          © GeeksForGeeks BVM 2025 | All Rights Reserved
+        </p>
       </div>
     </footer>
   );
