@@ -5,6 +5,14 @@ import GFGSeparator from "../components/GFGSeparator";
 export default function BRTeamPage() {
   const brMembers = [
     {
+      name: "Jaydevsinh Mahida",
+      role: "BR Head",
+      department: "Electronics Engineering",
+      year: "2nd",
+      image: "/team/Jaydevsinh Mahida_BR HEAD.jpg",
+      linkedin: "https://www.linkedin.com/in/jaydevsinh-mahida-0a93a2339",
+    },
+    {
       name: "Kishan Patel",
       role: "BR Computer",
       department: "Computer Engineering",
@@ -72,14 +80,7 @@ export default function BRTeamPage() {
       image: "/team/Happy Judal_CE (BR).jpg",
       linkedin: "https://www.linkedin.com/in/happy-judal-2ba247330",
     },
-    {
-      name: "Jaydevsinh Mahida",
-      role: "BR Head",
-      department: "Electronics Engineering",
-      year: "2nd",
-      image: "/team/Jaydevsinh Mahida_BR HEAD.jpg",
-      linkedin: "https://www.linkedin.com/in/jaydevsinh-mahida-0a93a2339",
-    },
+    
   ];
 
  return (
