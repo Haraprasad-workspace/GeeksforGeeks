@@ -31,7 +31,7 @@ const events = [
       "/events/skillup101-2.jpg",
     ],
 
-    report: "/reports/skillup101-report.pdf",
+    report: "/reports/Skillup-101reportfinal.pdf",
   },
 ];
 

@@ -36,8 +36,11 @@ export function Navbar() {
   ];
 
   return (
-    <div className="w-full">
-      {/* ================= MOBILE NAVBAR ================= */}
+    <>
+      {/* ================= DESKTOP SPACER ONLY ================= */}
+      <div className="hidden md:block h-[10px]" />
+
+      {/* ================= MOBILE NAVBAR (UNCHANGED) ================= */}
       <nav className="md:hidden fixed top-0 left-0 w-full z-50 flex items-center justify-between px-5 py-3 bg-white/80 backdrop-blur-md border-b border-neutral-200">
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -58,7 +61,7 @@ export function Navbar() {
         </button>
       </nav>
 
-      {/* ================= MOBILE MENU ================= */}
+      {/* ================= MOBILE MENU (UNCHANGED) ================= */}
       {isMobileMenuOpen && (
         <>
           <div
@@ -132,68 +135,70 @@ export function Navbar() {
         </>
       )}
 
-      {/* ================= DESKTOP NAVBAR ================= */}
-      <nav className="hidden md:flex fixed top-0 left-0 w-full z-50 items-center justify-between px-10 py-4 bg-white/80 backdrop-blur-md border-b border-neutral-200">
-        <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/logo.jpg"
-            alt="GeeksforGeeks Logo"
-            width={44}
-            height={44}
-            className="rounded-sm"
-            priority
-          />
-          <span className="text-lg font-semibold text-neutral-900 leading-none">
-            GeeksforGeeks
-          </span>
-        </Link>
+      {/* ================= DESKTOP NAVBAR (STICKY) ================= */}
+      <header className="hidden md:block sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-neutral-200">
+        <nav className="flex items-center justify-between px-10 py-4">
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/logo.jpg"
+              alt="GeeksforGeeks Logo"
+              width={44}
+              height={44}
+              className="rounded-sm"
+              priority
+            />
+            <span className="text-lg font-semibold text-neutral-900 leading-none">
+              GeeksforGeeks
+            </span>
+          </Link>
 
-        <div className="flex items-center gap-8">
-          {baseNavItems.map((item) => (
-            <Link
-              key={item.name}
-              href={item.link}
-              className="flex items-center gap-2 text-sm font-medium text-neutral-700 hover:text-neutral-900"
-            >
-              {item.icon}
-              {item.name}
-            </Link>
-          ))}
+          <div className="flex items-center gap-8">
+            {baseNavItems.map((item) => (
+              <Link
+                key={item.name}
+                href={item.link}
+                className="flex items-center gap-2 text-sm font-medium text-neutral-700 hover:text-neutral-900"
+              >
+                {item.icon}
+                {item.name}
+              </Link>
+            ))}
 
-          {/* DESKTOP FLASHBACK (CLICK ONLY) */}
-          <div className="relative">
-            <button
-              onClick={() => setIsFlashbackOpen(!isFlashbackOpen)}
-              className="flex items-center gap-2 text-sm font-medium text-neutral-700 hover:text-neutral-900"
-            >
-              <IconHistory className="h-5 w-5" />
-              Flashback
-              <IconChevronDown
-                className={`h-4 w-4 transition-transform ${
-                  isFlashbackOpen ? "rotate-180" : ""
-                }`}
-              />
-            </button>
+            {/* DESKTOP FLASHBACK */}
+            <div className="relative">
+              <button
+                onClick={() => setIsFlashbackOpen(!isFlashbackOpen)}
+                className="flex items-center gap-2 text-sm font-medium text-neutral-700 hover:text-neutral-900"
+              >
+                <IconHistory className="h-5 w-5" />
+                Flashback
+                <IconChevronDown
+                  className={`h-4 w-4 transition-transform ${
+                    isFlashbackOpen ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
 
-            {isFlashbackOpen && (
-              <div className="absolute right-0 mt-2 w-40 rounded-md bg-white shadow-lg border z-50">
-                {flashbackItems.map((item) => (
-                  <a
-                    key={item.label}
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => setIsFlashbackOpen(false)}
-                    className="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-100"
-                  >
-                    {item.label}
-                  </a>
-                ))}
-              </div>
-            )}
+              {isFlashbackOpen && (
+                <div className="absolute right-0 mt-2 w-40 rounded-md bg-white shadow-lg border z-50">
+                  {flashbackItems.map((item) => (
+                    <a
+                      key={item.label}
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setIsFlashbackOpen(false)}
+                      className="block px-4 py-2 text-sm text-neutral-700 hover:bg-neutral-100"
+                    >
+                      {item.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </header>
+    </>
   );
 }

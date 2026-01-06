@@ -99,7 +99,7 @@ export default function Home() {
 
   return (
     <div className="font-roboto">
-      <Navbar />
+      
       <Hero />
       <GFGSeparator />
       {/* About */}
