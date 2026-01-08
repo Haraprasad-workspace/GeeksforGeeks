@@ -27,8 +27,12 @@ const events = [
    
     images: [
       "/events/skillup101.jpeg",
+      "/events/skillup101-5.jpeg",
+      "/events/skillup101-3.jpeg",
+      "/events/skillup101-4.jpeg",
       "/events/skillup101-1.jpg",
       "/events/skillup101-2.jpg",
+      
     ],
 
     report: "/reports/Skillup-101reportfinal.pdf",
