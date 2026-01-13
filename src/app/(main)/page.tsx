@@ -8,6 +8,8 @@ import Hero from "../components/Hero";
 import GFGSeparator from "../components/GFGSeparator";
 
 
+
+
 export default function Home() {
   const members = [
     {
@@ -40,14 +42,14 @@ export default function Home() {
     {
       name: "Patel Arya",
       role: "Content Creator",
-      image: "/New_team/Patel Arya_content creator.jpg",
+      image: "/New_team/Patel_Arya_content_creator.jpg",
       linkedin: "https://www.linkedin.com/in/arya-patel-205aa0326/",
       instagram: "https://www.instagram.com/Arya_p_16/",
     },
     {
       name: "Megh Patel",
       role: "Graphics Supervisor",
-      image: "/New_team/Megh Patel - Graphic Superviser.png",
+      image: "/New_team/Megh_Patel_Graphic_Superviser.png",
       linkedin: "https://www.linkedin.com/in/meghpatel007/",
       instagram: "https://www.instagram.com/_meghpatel_007/",
       github: "https://github.com/MeghPatel-007",
@@ -69,7 +71,7 @@ export default function Home() {
     {
       name: "Jeet Vasoya",
       role: "Marketing Coordinator",
-      image: "/New_team/Jeet Vasoya.png",
+      image: "/New_team/Jeet_Vasoya.png",
       linkedin: "https://www.linkedin.com/in/jeet-vasoya-071397323/",
       instagram: "https://www.instagram.com/j_d_vasoya_21/",
     },
@@ -83,14 +85,14 @@ export default function Home() {
     {
       name: "Pratibha Indravath",
       role: "Social Media Manager",
-      image: "/New_team/Pratibha Indravath__Social Media Manager.png",
+      image: "/New_team/Pratibha_Indravath__Social_Media_Manager.png",
       linkedin: "https://www.linkedin.com/in/pratibha-indravath-b5b51a33b/",
       instagram: "https://www.instagram.com/pratibha_indravath/",
     },
     {
       name: "Jaydevsinh Mahida",
       role: "Branch Representative Head",
-      image: "/New_team/Jaydevsinh Mahida_BR HEAD.jpg",
+      image: "/New_team/Jaydevsinh_Mahida_BR_HEAD.jpg",
       linkedin: "https://www.linkedin.com/in/jaydevsinh-mahida-0a93a2339/",
       instagram: "https://www.instagram.com/jaydemahida13/",
       github: "https://github.com/JaydevMahida",

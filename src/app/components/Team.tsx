@@ -44,6 +44,8 @@ const MemberCard: React.FC<MemberCardProps> = ({
             src={image}
             alt={name}
             fill
+            priority={false}
+            unoptimized={false}
             className="
               object-cover
               transition-transform duration-500

@@ -9,7 +9,7 @@ export default function BRTeamPage() {
       role: "BR Head",
       department: "Electronics Engineering",
       year: "2nd",
-      image: "/New_team/Jaydevsinh Mahida_BR HEAD.jpg",
+      image: "/New_team/Jaydevsinh_Mahida_BR_HEAD.jpg",
       linkedin: "https://www.linkedin.com/in/jaydevsinh-mahida-0a93a2339",
     },
     {
@@ -17,7 +17,7 @@ export default function BRTeamPage() {
       role: "BR Computer",
       department: "Computer Engineering",
       year: "2nd",
-      image: "/New_team/Kishan Patel Computer BR.jpg",
+      image: "/New_team/Kishan_Patel_Computer_BR.jpg",
       instagram: "https://www.instagram.com/mr_kishan.patel",
       linkedin: "https://www.linkedin.com/in/kishan-patel-17488a305",
     },
@@ -34,7 +34,7 @@ export default function BRTeamPage() {
   role: "BR EC",
   department: "Electronics Engineering",
   year: "2nd",
-  image: "/New_team/Sneh Patel_BR(ECE) .JPG", // 
+  image: "/New_team/Sneh_Patel_BR(ECE).JPG", // 
   linkedin: "https://www.linkedin.com/in/sneh-patel-a72575321/",
 },
 
@@ -51,7 +51,7 @@ export default function BRTeamPage() {
       role: "BR Mechanical",
       department: "Mechanical Engineering",
       year: "2nd",
-      image: "/New_team/Jay Thakar_ ME-BR.jpg",
+      image: "/New_team/Jay_Thakar_ ME_BR.jpg",
       instagram: "https://www.instagram.com/hpott_er13",
       linkedin: "https://www.linkedin.com/in/jay-thakar-1b0b4323a",
     },
@@ -60,7 +60,7 @@ export default function BRTeamPage() {
       role: "BR Electrical",
       department: "Electrical Engineering",
       year: "2nd",
-      image: "/New_team/Siddharth Sinha Electrical BR.jpg",
+      image: "/New_team/Siddharth_Sinha_Electrical_BR.jpg",
       linkedin: "https://www.linkedin.com/in/siddharth-sinha-753086380",
     },
     {
@@ -68,7 +68,7 @@ export default function BRTeamPage() {
       role: "BR Electronics",
       department: "Electronics Engineering",
       year: "3rd",
-      image: "/New_team/Arunika Ghosh_EL_BR.jpg",
+      image: "/New_team/Arunika_Ghosh_EL_BR.jpg",
       instagram: "https://www.instagram.com/shei.meye",
       linkedin: "https://www.linkedin.com/in/arunikaghosh",
     },
@@ -77,7 +77,7 @@ export default function BRTeamPage() {
       role: "BR Civil",
       department: "Civil Engineering",
       year: "2nd",
-      image: "/New_team/Happy Judal_CE (BR).jpg",
+      image: "/New_team/Happy_Judal_CE_(BR).jpg",
       linkedin: "https://www.linkedin.com/in/happy-judal-2ba247330",
     },
     
