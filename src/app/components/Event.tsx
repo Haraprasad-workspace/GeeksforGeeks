@@ -19,10 +19,12 @@ const events = [
     venue: "B Block, Room 401, Birla Vishvakarma Mahavidyalaya",
 
     speakers: [
-      "Industry Professionals",
-      "GeeksforGeeks Mentors",
-      "IT Department Faculty",
-    ],
+  "Aditya Desai (4th Year CP) – Professional Communication",
+  "Kavya Zinzuvadiya (2nd Year IT) – Data Structures",
+  "Vihaa Shah (3rd Year IT) – Resume Building",
+  "Parv Luhar (2nd Year CP) – LinkedIn & Personal Branding",
+],
+
 
    
     images: [
@@ -68,7 +70,7 @@ export default function EventPage() {
     );
 
   return (
-    <section id = "Event" className="py-15  bg-gray-50 font-roboto">
+    <section  className="py-15  bg-gray-50 font-roboto">
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
         <h1 className="text-3xl md:text-4xl  font-semibold text-[#0F9D58] text-center mb-12">

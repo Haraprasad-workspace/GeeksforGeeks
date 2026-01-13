@@ -108,14 +108,15 @@ export default function Home() {
       <GFGSeparator />
 
       {/* Events */}
-      <section className="py-20 bg-gray-50 dark:bg-neutral-900">
+      <section id = "Event" className="py-5 bg-gray-50 dark:bg-neutral-900">
         <Event />
       </section>
 
       <GFGSeparator />
 
       {/* Team */}
-      <section id="Team" className="py-15 bg-gray-50 dark:bg-neutral-900">
+      <section id="Team"  className="py-5" >
+        <section className="py-15 bg-gray-50 dark:bg-neutral-900">
         <div className="max-w-7xl mx-auto px-6">
           <h1 className="text-3xl md:text-4xl font-semibold text-[#0F9D58] text-center mb-12">
             Our Team
@@ -131,6 +132,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
       </section>
 
       <GFGSeparator />
