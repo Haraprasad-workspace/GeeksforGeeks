@@ -9,7 +9,7 @@ export default function BRTeamPage() {
       role: "BR Head",
       department: "Electronics Engineering",
       year: "2nd",
-      image: "/team/Jaydevsinh Mahida_BR HEAD.jpg",
+      image: "/new_team/Jaydevsinh Mahida_BR HEAD.jpg",
       linkedin: "https://www.linkedin.com/in/jaydevsinh-mahida-0a93a2339",
     },
     {
@@ -17,7 +17,7 @@ export default function BRTeamPage() {
       role: "BR Computer",
       department: "Computer Engineering",
       year: "2nd",
-      image: "/team/Kishan Patel Computer BR.jpg",
+      image: "/new_team/Kishan Patel Computer BR.jpg",
       instagram: "https://www.instagram.com/mr_kishan.patel",
       linkedin: "https://www.linkedin.com/in/kishan-patel-17488a305",
     },
@@ -26,7 +26,7 @@ export default function BRTeamPage() {
       role: "BR IT",
       department: "IT Engineering",
       year: "2nd",
-      image: "/team/Pandya Aditya__Branch Representative (IT)_1.jpg",
+      image: "/new_team/Aditya_Pandya.jpg",
       instagram: "https://www.instagram.com/adityapandya96",
       linkedin: "https://www.linkedin.com/in/aditya-pandya-821540308",
     },{
@@ -34,7 +34,7 @@ export default function BRTeamPage() {
   role: "BR EC",
   department: "Electronics Engineering",
   year: "2nd",
-  image: "/team/Sneh Patel_BR(ECE) .JPG", // 
+  image: "/new_team/Sneh Patel_BR(ECE) .JPG", // 
   linkedin: "https://www.linkedin.com/in/sneh-patel-a72575321/",
 },
 
@@ -43,7 +43,7 @@ export default function BRTeamPage() {
   role: "BR Production",
   department: "Production Engineering",
   year: "3rd",
-  image: "/team/Manav_BR.jpeg", 
+  image: "/new_team/Manav_BR.jpeg", 
   linkedin: "",
 },
     {
@@ -51,7 +51,7 @@ export default function BRTeamPage() {
       role: "BR Mechanical",
       department: "Mechanical Engineering",
       year: "2nd",
-      image: "/team/Jay Thakar_ ME-BR.jpg",
+      image: "/new_team/Jay Thakar_ ME-BR.jpg",
       instagram: "https://www.instagram.com/hpott_er13",
       linkedin: "https://www.linkedin.com/in/jay-thakar-1b0b4323a",
     },
@@ -60,7 +60,7 @@ export default function BRTeamPage() {
       role: "BR Electrical",
       department: "Electrical Engineering",
       year: "2nd",
-      image: "/team/Siddharth Sinha Electrical BR.jpg",
+      image: "/new_team/Siddharth Sinha Electrical BR.jpg",
       linkedin: "https://www.linkedin.com/in/siddharth-sinha-753086380",
     },
     {
@@ -68,7 +68,7 @@ export default function BRTeamPage() {
       role: "BR Electronics",
       department: "Electronics Engineering",
       year: "3rd",
-      image: "/team/Arunika Ghosh_EL_BR.jpg",
+      image: "/new_team/Arunika Ghosh_EL_BR.jpg",
       instagram: "https://www.instagram.com/shei.meye",
       linkedin: "https://www.linkedin.com/in/arunikaghosh",
     },
@@ -77,7 +77,7 @@ export default function BRTeamPage() {
       role: "BR Civil",
       department: "Civil Engineering",
       year: "2nd",
-      image: "/team/Happy Judal_CE (BR).jpg",
+      image: "/new_team/Happy Judal_CE (BR).jpg",
       linkedin: "https://www.linkedin.com/in/happy-judal-2ba247330",
     },
     
